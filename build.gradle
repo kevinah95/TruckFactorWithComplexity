@@ -7,11 +7,14 @@ group = 'io.github.kevinah95'
 version = '0.1.0'
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
 dependencies {
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
+
+    implementation 'io.github.kevinah95:KDriller:0.1.0'
 }
 
 test {
@@ -19,7 +22,7 @@ test {
 }
 
 kotlin {
-    jvmToolchain(8)
+    jvmToolchain(11)
 }
 
 application {
