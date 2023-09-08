@@ -15,6 +15,8 @@ dependencies {
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
 
     implementation 'io.github.kevinah95:KDriller:0.1.0'
+
+    implementation 'com.google.code.gson:gson:2.10.1'
 }
 
 test {
